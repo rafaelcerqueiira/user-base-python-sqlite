@@ -12,3 +12,19 @@ O User Base permite cadastrar, buscar, editar, listar e excluir usuários direta
 - Excluir usuário do sistema
 ---
 ## Estrutura do projeto
+user-base/
+│
+├── main.py                  # Ponto de entrada do sistema
+│
+├── auth/
+│   └── auth.py              # Funções de cadastro, busca, edição e exclusão
+│
+├── database/
+│   └── db.py                # Conexão e operações com o banco de dados SQLite
+│
+├── validators/
+│   └── validators.py        # Validação das entradas do usuário
+│
+└── ui/
+└── ui.py                # Menus, títulos e mensagens de erro
+```
